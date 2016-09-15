@@ -1,0 +1,33 @@
+html, body {
+	height: 100%;
+}
+.container, .row, .col-sm-4 {
+	height: inherit;
+}
+
+/*form*/
+#form {
+	height: 250px;
+	margin: auto;
+	padding: 0 15px;
+	position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;  
+}
+
+
+/*results*/
+#results {
+	color: #fff;
+	padding:10px;
+	text-align: center;
+}
+
+.success {
+	background-color: #5cb85c;
+	transition: 0.3s all ease-in-out;
+}
+
+.failure {
+	background-color: #d9534f;
+	transition: 0.3s all ease-in-out;
+}

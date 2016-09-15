@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Guessing Game Application</title>
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+				<!-- form to collect user data -->
+				<form id="form">
+					<div class="form-group">
+						<h1 class="text-center">Guess a number between 1 - 100</h1>
+						<p id="guesses"></p>
+					</div>
+					<div class="form-group">
+						<input id="userGuess" class="form-control" type="number" autofocus>
+					</div>
+					<div class="form-group">
+						<button id="btn" class="btn btn-primary btn-block" type="button" onclick="determineGuess()">Take a Guess</button>
+					</div>
+
+					<!-- results -->
+					<div id="results"></div>
+				</form>				
+			</div>
+		</div>
+	</div>
+
+	<div id="results"></div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
